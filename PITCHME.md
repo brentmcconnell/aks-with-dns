@@ -13,7 +13,7 @@
 @ulend
 
 ---
-@snap[north-west span-50 text-center]
+@snap[north span-50 text-center]
 ### ExternalDNS
 @snapend
 

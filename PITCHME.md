@@ -2,4 +2,7 @@
 
 ---
 
-### What is ExternalDNS
+### Assumes
+
+- Kubernetes Basics
+

@@ -13,8 +13,10 @@
 @ulend
 
 ---
-
+@snap[north-west span-50 text-center]
 ### ExternalDNS
+@snapend
+
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
 - You will be amazed

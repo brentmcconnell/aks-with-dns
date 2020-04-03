@@ -32,4 +32,22 @@
 
 ---
 
+@snap[north span-50 text-center]
+### CertManager
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- You will be amazed
+- What you can achieve
+- With a **little imagination**
+- And GitPitch Markdown
+@ulend
+@snapend
+
+@snap[east span-45]
+![IMAGE](assets/img/cert.png)
+@snapend
+---
+
 # The END!

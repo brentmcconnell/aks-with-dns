@@ -4,7 +4,7 @@
 
 ### Assumes
 
-@ul[text-15 text-bold list-fade-fragments]
+@ul[list-fade-fragments]
 - Basic Kubernetes Knowledge
     - Kubectl
     - Helm

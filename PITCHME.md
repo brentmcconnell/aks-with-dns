@@ -3,7 +3,6 @@
 ---
 
 ### Assumes
-
 @ul[list-fade-fragments]
 - Basic Kubernetes Knowledge
     - Kubectl
@@ -13,6 +12,7 @@
 @ulend
 
 ---
+
 @snap[north span-50 text-center]
 ### ExternalDNS
 @snapend

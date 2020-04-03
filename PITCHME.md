@@ -27,7 +27,7 @@
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/external-dns.png)
+![IMAGE](assets/img/dns.png)
 @snapend
 
 ---

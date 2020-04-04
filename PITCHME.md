@@ -16,9 +16,9 @@
 ### Barebones Overview
 - Kubernetes orchestrates containers
 - Namespace is a virtual space inside Kubernetes
-- Pod is a set of containers working together (ie. think host)
-- Service is a way to expose pods to the cluster or world
-- Ingress is how traffic can get to the pods from outside
+- Pod is a set of containers working together
+- A Service is a way to expose pods to the cluster or world
+- Ingress is how traffic can get to the pods from outside the cluster
 
 ---
 

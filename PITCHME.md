@@ -30,9 +30,16 @@
 - Internet-to-Service
 @ulend
 
-@[4]
+---
+
+### Container-to-Container
+- A pod is a group of containers that share a network namespace
+- Containers all have the same IP
+- Containers can communicate over localhost
+- Containers have access to shared volumes in pods
 
 ---
+
 
 ### Ingress Overview
 

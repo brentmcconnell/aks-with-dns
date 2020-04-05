@@ -58,7 +58,7 @@
 @ul[list-fade-fragments]
 - Pod IPs are NOT durable
 - Pod IPs will disappear and reappear in response to scaling, crashes or reboots
-- @css[text-bold](Services) address this problem
+- @css[text-uppercase](Services) address this problem
 @ulend
 
 

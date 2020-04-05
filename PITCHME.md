@@ -22,6 +22,16 @@
 
 ---
 
+### Four Distinct Networking Problems in Kubernetes
+- Container-to-Container 
+- Pod-to-Pod
+- Pod-to-Service
+- Internet-to-Service
+
+@[4]
+
+---
+
 ### Ingress Overview
 
 ![IMAGE](assets/img/ingress.png)

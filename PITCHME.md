@@ -33,13 +33,37 @@
 ---
 
 ### Container-to-Container
+@ul[list-fade-fragments]
 - A pod is a group of containers that share a network namespace
 - Containers all have the same IP
 - Containers can communicate over localhost
 - Containers have access to shared volumes in pods
+@ulend
 
 ---
 
+### Pod-to-Pod
+@ul[list-fade-fragments]
+- All Pods have an IP address
+- All Pods use that IP address to communicate... even across nodes
+- All Pods have their own network namespace (ip netns list) on the host
+- Same host pods communicate over a local bridge
+- Routing Pod IPs to correct host is handled by container networking plugin
+    - kubenet (default for AKS)
+    - Azure Container Networking Interface (CNI)
+@ulend
+---
+
+### Pod-to-Service
+@ul[list-fade-fragments]
+- Pod IPs are NOT durable
+- Pod IPs will disappear and reappear in response to scaling, crashes or reboots
+- @css[text-bold](Services) address this problem
+@ulend
+
+
+
+---
 
 ### Ingress Overview
 

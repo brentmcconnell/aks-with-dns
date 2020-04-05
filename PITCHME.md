@@ -59,6 +59,9 @@
 - Pod IPs are NOT durable
 - Pod IPs will disappear and reappear in response to scaling, crashes or reboots
 - @css[text-uppercase](Services) address this problem
+    - Single IP representing a group of Pods
+    - Pods can change over time and @css[text-uppercase](service) IP is persistent
+    - Known as @css[text-blue](ClusterIP)
 @ulend
 
 

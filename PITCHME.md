@@ -23,10 +23,12 @@
 ---
 
 ### Four Distinct Networking Problems in Kubernetes
+@ul[list-fade-fragments]
 - Container-to-Container 
 - Pod-to-Pod
 - Pod-to-Service
 - Internet-to-Service
+@ulend
 
 @[4]
 

@@ -98,7 +98,7 @@
 @snapend
 
 @snap[west span-75]
-@ul[list-spaced-bullets text-09]
+@ul[list-spaced-bullets text-08]
 - Allows control of DNS records dynamically from Kubernetes
 - Will create and delete records based on Kubernetes state
 - Supports all major cloud providers but at various levels.  Azure is in Beta.

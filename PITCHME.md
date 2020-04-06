@@ -38,7 +38,7 @@ spec:
           servicePort: 80
         path: /
 ```
-@[10,13]
+@[11,14]
 ---
 
 @ul[list-spaced-bullets text-08]

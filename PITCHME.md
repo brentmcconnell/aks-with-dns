@@ -12,7 +12,7 @@
 @ulend
 
 ---
-
+### Ingress Code Block
 @snap[north-west span-100 text-05 text-gray]
 Ingress Code Block
 @snapend
@@ -49,50 +49,10 @@ spec:
 - Pod-to-Service
 - Internet-to-Service
 @ulend
-@[4]
----
-
-### Container-to-Container
-@ul[list-spaced-bullets text-08]
-- More than one container can be in a pod
-- A pod is a group of containers that share a network namespace
-- Containers in a pod all have the same IP and port space
-- Containers can communicate over localhost
-- Think of a pod as a host
-@ulend
-
----
-
-### Pod-to-Pod
-@ul[list-spaced-bullets text-08]
-- All Pods have an IP address
-- All Pods use that IP address to communicate... even across nodes
-- All Pods have their own network namespace (ip netns list) on the host
-- Same host pods communicate over a local bridge on the host
-- Routing Pod IPs to correct host is handled by container networking plugin
-    - kubenet (default for AKS)
-    - Azure Container Networking Interface (CNI)
-@ulend
----
-
-### Pod-to-Service
-@ul[list-spaced-bullets text-08]
-- Pod IPs are NOT durable
-- Pod IPs will disappear and reappear in response to scaling, crashes or reboots
-- @css[text-uppercase](Services) address this problem
-    - Single IP representing a group of Pods
-    - Pods can change over time and @css[text-uppercase](service) IP is persistent
-    - Known as @css[text-blue](ClusterIP)
-    - In cluster load balancer via iptables or IPV (IP Virtual Server)
-    - @css[text-uppercase](Services) get internal DNS names (eg. my-svc.namespace.svc.cluster.local)
-@ulend
-
 ---
 
 ### Internet-to-Service
 @ul[list-spaced-bullets text-08]
-- Egress
-    - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress
     - When creating a Service can optionally create a @css[text-uppercase](LoadBalancer) type 
     - Implemention of Load Balancer is provide by cloud controller (Azure)

@@ -107,7 +107,7 @@
 @ulend
 @snapend
 
-@snap[east span-45]
+@snap[east span-35]
 ![IMAGE](assets/img/dns.png)
 @snapend
 

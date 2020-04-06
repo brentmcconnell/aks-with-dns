@@ -2,23 +2,14 @@
 
 ---
 
-### Background Info To Know
-@ul[list-fade-fragments]
-- Basic Kubernetes Knowledge
-    - Kubectl
-    - Helm
-    - Load Balancer
-- Let's Encrypt Basics
-@ulend
-
----
-
+@ul[list-spaced-bullets text-07]
 ### Barebones Overview
 - Kubernetes orchestrates containers
 - Namespace is a virtual space inside Kubernetes
 - Pod is a set of containers working together
 - A Service is a way to expose pods to the cluster or world
 - Ingress is how traffic can get to the pods from outside the cluster
+@ulend
 
 ---
 
@@ -136,7 +127,7 @@
 - Automate the management and issuance of TLS certificates
 - Ensures certificates are valid and attempts to renew
 - Self-signed, CA, Vault, Venafi, External, @css[txt-bold](ACME) 
-- ACME
+- Automatic Certificate Management Environment (ACME) (eg. Let's Encrypt)
     - HTTP
     - DNS
 @ulend

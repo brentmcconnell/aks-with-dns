@@ -24,7 +24,7 @@
 ---
 
 ### Container-to-Container
-@ul[list-fade-fragments]
+@ul[list-spaced-bullets text-08]
 - A pod is a group of containers that share a network namespace
 - Containers all have the same IP
 - Containers can communicate over localhost

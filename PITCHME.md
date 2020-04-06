@@ -54,10 +54,11 @@ spec:
 ### Internet-to-Service
 @ul[list-spaced-bullets text-08]
 - Ingress
-    - When creating a Service can optionally create a @css[text-uppercase](LoadBalancer) type 
+    - When creating a Service we can optionally create a @css[text-uppercase](LoadBalancer) type 
     - Implemention of Load Balancer is provide by cloud controller (Azure)
-    - Load Balancer gets traffic to node where iptables takes over
+    - Load Balancer gets traffic to AKS nodes where iptables takes over
     - Ingress Controller watches for Ingress resources and creates mappings to @css[text-uppercase](services)
+- At this point we have traffic but how to we manage name resolution and SSL certificates for those names
     
 @ulend
 ---

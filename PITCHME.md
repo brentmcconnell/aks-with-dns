@@ -63,9 +63,16 @@
     - Pods can change over time and @css[text-uppercase](service) IP is persistent
     - Known as @css[text-blue](ClusterIP)
     - In cluster load balancer via iptables or IPV (IP Virtual Server)
-    - Services get internal DNS names (eg. my-svc.namespace.svc.cluster.local)
+    - @css[text-uppercase](Services) get internal DNS names (eg. my-svc.namespace.svc.cluster.local)
 @ulend
 
+---
+
+### Internet-to-Service
+- Egress
+    - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
+- Ingress
+    - 
 
 
 ---

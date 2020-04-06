@@ -73,7 +73,7 @@
 - Egress
     - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress
-    - When creating a @css[text-uppercase](service) can optionally create a @css[text-underline](LoadBalancer) type 
+    - When creating a @css[text-uppercase](service) can optionally create a @css[text-uppercase](LoadBalancer) type 
     - Implemention of Load Balancer is provide by cloud controller (Azure)
     - Load Balancer gets traffic to node where iptables takes over
     - Ingress Controller watches for Ingress resources and creates mappings to

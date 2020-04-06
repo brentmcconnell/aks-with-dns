@@ -115,6 +115,9 @@
 @snap[north span-50 text-center]
 ### Setup ExternalDNS
 @snapend
+
+@snap[west]
+@ul[list-spaced-bullets text-08]
 1. Create an Azure DNS Zone
 1. Set nameservers correctly at Registrar
 1. Create Service Principal

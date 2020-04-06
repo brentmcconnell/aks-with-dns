@@ -12,11 +12,6 @@
 @ulend
 
 ---
-<!--
-@snap[north]
-#### Ingress Code Block
-@snapend
--->
 
 @snap[north-west span-100 text-05 text-gray]
 Ingress Code Block
@@ -46,7 +41,6 @@ spec:
 ```
 @[11,14]
 ---
-<!--
 @ul[list-spaced-bullets text-08]
 ### Barebones Overview
 - Kubernetes orchestrates containers
@@ -57,7 +51,6 @@ spec:
 @ulend
 
 ---
--->
 ### Four Distinct Networking Problems in Kubernetes
 @ul[list-fade-fragments]
 - Container-to-Container 

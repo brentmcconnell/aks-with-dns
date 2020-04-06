@@ -112,7 +112,7 @@
 @snapend
 
 ---
-@snap[north span-50 text-center]
+@snap[north text-center]
 ### Setup ExternalDNS
 @snapend
 
@@ -120,13 +120,9 @@
 @ul[list-spaced-bullets text-08]
 1. Create an Azure DNS Zone
 1. Set nameservers correctly at Registrar
-1. Create Service Principal
-1. Assign contributor role to DNS Zone
+1. Create Service Principal and assign Contributor to DNS Zone
 1. Modify existing NGINX service to include --publish-service option
 1. Deploy ExternalDNS
-
-- <a
-  href="https://gist.github.com/brentmcconnell/a8769f1e3a4010c71e1cd764887e6325">Scripts</a>
 @ulend
 @snapend
 

@@ -40,6 +40,7 @@ spec:
         path: /
 ```
 @[11,14]
+---
 
 ### Kubernetes Ingress
 @ul[list-spaced-bullets text-08]

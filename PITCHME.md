@@ -34,7 +34,7 @@
 ---
 
 ### Pod-to-Pod
-@ul[list-fade-fragments]
+@ul[list-spaced-bullets text-08]
 - All Pods have an IP address
 - All Pods use that IP address to communicate... even across nodes
 - All Pods have their own network namespace (ip netns list) on the host
@@ -46,7 +46,7 @@
 ---
 
 ### Pod-to-Service
-@ul[list-fade-fragments]
+@ul[list-spaced-bullets text-08]
 - Pod IPs are NOT durable
 - Pod IPs will disappear and reappear in response to scaling, crashes or reboots
 - @css[text-uppercase](Services) address this problem
@@ -60,7 +60,7 @@
 ---
 
 ### Internet-to-Service
-@ul[list-fade-fragments]
+@ul[list-spaced-bullets text-08]
 - Egress
     - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress

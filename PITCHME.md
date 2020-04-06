@@ -2,7 +2,7 @@
 
 ---
 
-@ul[list-spaced-bullets text-07]
+@ul[list-spaced-bullets text-08]
 ### Barebones Overview
 - Kubernetes orchestrates containers
 - Namespace is a virtual space inside Kubernetes

@@ -69,7 +69,6 @@
 ---
 
 ### Internet-to-Service
-
 @ul
 - Egress -> Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress

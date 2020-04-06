@@ -73,14 +73,13 @@
 - Egress
     - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress
-    - Pod IPs are NOT durable
-    - Pod IPs will disappear and reappear in response to scaling, crashes or reboots
-    - @css[text-uppercase](Services) address this problem
-    - Single IP representing a group of Pods
-    - Pods can change over time and @css[text-uppercase](service) IP is persistent
-    - Known as @css[text-blue](ClusterIP)
-        - In cluster load balancer via iptables or IPV (IP Virtual Server)
-        - @css[text-uppercase](Services) get internal DNS names (eg. my-svc.namespace.svc.cluster.local)
+    - When creating a Service can optionally create a @css[text-uppercase](LoadBalancer) type 
+    - Implemention of Load Balancer is provide by cloud controller (Azure)
+    - Load Balancer gets traffic to node where iptables takes over
+    - Ingress Controller watches for Ingress resources and creates mappings to @css[text-uppercase](services)
+        - foo.example.com
+        - example.com/bar
+    
 @ulend
 ---
 

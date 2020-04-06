@@ -77,8 +77,6 @@
     - Implemention of Load Balancer is provide by cloud controller (Azure)
     - Load Balancer gets traffic to node where iptables takes over
     - Ingress Controller watches for Ingress resources and creates mappings to @css[text-uppercase](services)
-        - foo.example.com
-        - example.com/bar
     
 @ulend
 ---

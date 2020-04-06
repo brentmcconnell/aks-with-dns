@@ -98,7 +98,7 @@
 @snapend
 
 @snap[west span-65]
-@ul[list-spaced-bullets text-08]
+@ul[list-spaced-bullets text-07]
 - Allows control of DNS records dynamically from Kubernetes
 - Will create and delete records based on Kubernetes state
 - Supports all major cloud providers but at various levels.  Azure is in Beta.
@@ -117,7 +117,7 @@
 @snapend
 
 @snap[west]
-@ul[list-spaced-bullets text-08]
+@ul[list-spaced-bullets text-07]
 1. Create an Azure DNS Zone
 1. Set nameservers correctly at Registrar
 1. Create Service Principal and assign Contributor to DNS Zone

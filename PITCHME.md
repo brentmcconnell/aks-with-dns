@@ -99,10 +99,11 @@
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
+- Allows control of DNS records dynamically from Kubernetes
+- Will create and delete records based on Kubernetes state
+- Supports all major cloud providers but at various levels.  Azure is in Beta.
+- Uses txt records for awareness of records it is managing 
+
 @ulend
 @snapend
 
@@ -111,7 +112,22 @@
 @snapend
 
 ---
+@snap[north span-50 text-center]
+### Setup ExternalDNS
+@snapend
+1. Create an Azure DNS Zone
+1. Set nameservers correctly at Registrar
+1. Create Service Principal
+1. Assign contributor role to DNS Zone
+1. Modify existing NGINX service to include --publish-service option
+1. Deploy ExternalDNS
 
+- <a
+  href="https://gist.github.com/brentmcconnell/a8769f1e3a4010c71e1cd764887e6325">Scripts</a>
+@ulend
+@snapend
+
+---
 @snap[north span-50 text-center]
 ### CertManager
 @snapend

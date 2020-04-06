@@ -69,6 +69,20 @@
 ---
 
 ### Internet-to-Service
+@ul[list-fade-fragments]
+- Ingress
+- Pod IPs are NOT durable
+- Pod IPs will disappear and reappear in response to scaling, crashes or reboots
+- @css[text-uppercase](Services) address this problem
+    - Single IP representing a group of Pods
+    - Pods can change over time and @css[text-uppercase](service) IP is persistent
+    - Known as @css[text-blue](ClusterIP)
+    - In cluster load balancer via iptables or IPV (IP Virtual Server)
+    - @css[text-uppercase](Services) get internal DNS names (eg. my-svc.namespace.svc.cluster.local)
+@ulend
+---
+
+### Internet-to-Service
 @ul
 - Egress -> Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress

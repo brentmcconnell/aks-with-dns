@@ -46,7 +46,7 @@ spec:
 ```
 @[11,14]
 ---
-
+<!--
 @ul[list-spaced-bullets text-08]
 ### Barebones Overview
 - Kubernetes orchestrates containers
@@ -57,7 +57,7 @@ spec:
 @ulend
 
 ---
-
+-->
 ### Four Distinct Networking Problems in Kubernetes
 @ul[list-fade-fragments]
 - Container-to-Container 

@@ -127,20 +127,17 @@
 @snapend
 
 ---
-@snap[north span-50 text-center]
+@snap[north text-center]
 ### CertManager
 @snapend
 
-@snap[west span-55]
-@ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
+@snap[west span-65]
+@ul[list-spaced-bullets text-07]
+- 
 @ulend
 @snapend
 
-@snap[east span-45]
+@snap[east span-35]
 ![IMAGE](assets/img/cert.png)
 @snapend
 ---

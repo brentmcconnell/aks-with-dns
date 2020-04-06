@@ -7,7 +7,7 @@
 - How do we manage custom DNS entries for Ingress hostnames in Kubernetes
     - foo.example.com
     - bar.example.com
-- For hosts that require an SSL certificate how can we manage certificates automcatically from Kubernetes
+- For hosts that require an SSL certificate how can we manage certificates automatically from Kubernetes
 
 @ulend
 

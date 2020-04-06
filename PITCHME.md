@@ -70,8 +70,7 @@
 
 ### Internet-to-Service
 @ul[list-fade-fragments]
-- Egress
-    - Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
+- Pod IPs are SNAT'd to the VM's IP so that Load Balancer can route
 - Ingress
     - When creating a @css[text-uppercase](service) can optionally create a @css[text-uppercase](LoadBalancer) type 
     - Implemention of Load Balancer is provide by cloud controller (Azure)

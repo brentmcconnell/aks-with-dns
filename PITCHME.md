@@ -40,15 +40,6 @@ spec:
         path: /
 ```
 @[11,14]
----
-@ul[list-spaced-bullets text-08]
-### Barebones Overview
-- Kubernetes orchestrates containers
-- Namespace is a virtual space inside Kubernetes
-- Pod is a set of containers working together
-- A Service is a way to expose pods to the cluster or world
-- Ingress is how traffic can get to the pods from outside the cluster
-@ulend
 
 ---
 ### Four Distinct Networking Problems in Kubernetes
@@ -58,7 +49,7 @@ spec:
 - Pod-to-Service
 - Internet-to-Service
 @ulend
-
+@[4]
 ---
 
 ### Container-to-Container

@@ -12,8 +12,14 @@
 @ulend
 
 ---
+<!--
 @snap[north]
 #### Ingress Code Block
+@snapend
+-->
+
+@snap[north-east span-100 text-gray]
+Live Code Presenting with Annotations
 @snapend
 
 ```yaml

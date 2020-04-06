@@ -39,7 +39,7 @@
 - All Pods have an IP address
 - All Pods use that IP address to communicate... even across nodes
 - All Pods have their own network namespace (ip netns list) on the host
-- Same host pods communicate over a local bridge
+- Same host pods communicate over a local bridge on the host
 - Routing Pod IPs to correct host is handled by container networking plugin
     - kubenet (default for AKS)
     - Azure Container Networking Interface (CNI)
@@ -138,5 +138,16 @@
 ![IMAGE](assets/img/cert.png)
 @snapend
 ---
+
+### Setup CertManager
+@ul[list-spaced-bullets text-08]
+- Install NGINX if not already present
+- Deploy CertManager to Kubernetes
+- Create Issuer or ClusterIssuer objects 
+    - Staging
+    - Production
+- Create Ingress object with reference to Issuer and host defined
+@ulend
+---    
 
 # The END!

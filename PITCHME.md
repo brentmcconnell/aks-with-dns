@@ -97,7 +97,7 @@
 ### ExternalDNS
 @snapend
 
-@snap[west span-75]
+@snap[west span-65]
 @ul[list-spaced-bullets text-08]
 - Allows control of DNS records dynamically from Kubernetes
 - Will create and delete records based on Kubernetes state
@@ -107,7 +107,7 @@
 @ulend
 @snapend
 
-@snap[east span-25]
+@snap[east span-35]
 ![IMAGE](assets/img/dns.png)
 @snapend
 

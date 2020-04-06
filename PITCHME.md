@@ -127,7 +127,7 @@ spec:
 - Create Issuer or ClusterIssuer objects 
     - Staging
     - Production
-- Create Ingress object with reference to Issuer and host defined
+- Create Kubernetes Ingress object with reference to Issuer and host defined
 @ulend
 ---    
 

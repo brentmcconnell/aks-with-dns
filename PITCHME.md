@@ -18,8 +18,8 @@
 @snapend
 -->
 
-@snap[north-east span-100 text-05 text-gray]
-Live Code Presenting with Annotations
+@snap[north-west span-100 text-05 text-gray]
+Ingress Code Block
 @snapend
 
 ```yaml

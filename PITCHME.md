@@ -87,6 +87,12 @@
 
 ---
 
+### Ingress Overview
+
+![IMAGE](assets/img/ingress-obj.png)
+
+---
+
 @snap[north span-50 text-center]
 ### ExternalDNS
 @snapend

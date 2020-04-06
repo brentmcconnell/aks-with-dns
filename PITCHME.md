@@ -25,10 +25,11 @@
 
 ### Container-to-Container
 @ul[list-spaced-bullets text-08]
+- More than one container can be in a pod
 - A pod is a group of containers that share a network namespace
-- Containers all have the same IP
+- Containers in a pod all have the same IP and port space
 - Containers can communicate over localhost
-- Containers have access to shared volumes in pods
+- Think of a pod as a host
 @ulend
 
 ---

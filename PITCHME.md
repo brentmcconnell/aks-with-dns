@@ -14,6 +14,31 @@
 
 ---
 
+```yaml
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  tls:
+  - hosts:
+    - nginx.designingdevops.com
+    secretName: tls-secret
+  rules:
+  - host: nginx.designingdevops.com
+    http:
+      paths:
+      - backend:
+          serviceName: nginx-svc
+          servicePort: 80
+        path: /
+```
+
+---
+
 @ul[list-spaced-bullets text-08]
 ### Barebones Overview
 - Kubernetes orchestrates containers

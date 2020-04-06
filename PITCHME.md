@@ -18,7 +18,7 @@
 @snapend
 -->
 
-@snap[north-east span-100 text-gray]
+@snap[north-east span-100 text-05 text-gray]
 Live Code Presenting with Annotations
 @snapend
 

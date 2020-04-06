@@ -41,17 +41,7 @@ spec:
 ```
 @[11,14]
 
----
-### Four Distinct Networking Problems in Kubernetes
-@ul[list-fade-fragments]
-- Container-to-Container 
-- Pod-to-Pod
-- Pod-to-Service
-- Internet-to-Service
-@ulend
----
-
-### Internet-to-Service
+### Kubernetes Ingress
 @ul[list-spaced-bullets text-08]
 - Ingress
     - When creating a Service we can optionally create a @css[text-uppercase](LoadBalancer) type 

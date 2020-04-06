@@ -133,7 +133,12 @@
 
 @snap[west span-65]
 @ul[list-spaced-bullets text-07]
-- 
+- Automate the management and issuance of TLS certificates
+- Ensures certificates are valid and attempts to renew
+- Self-signed, CA, Vault, Venafi, External, @css[txt-bold](ACME) 
+- ACME
+    - HTTP
+    - DNS
 @ulend
 @snapend
 

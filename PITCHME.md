@@ -112,7 +112,7 @@
 @snapend
 
 ---
-@snap[north text-center]
+@snap[north]
 ### Setup ExternalDNS
 @snapend
 

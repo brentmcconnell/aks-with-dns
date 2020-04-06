@@ -13,6 +13,9 @@
 @ulend
 
 ---
+@snap[north]
+#### Ingress Code Block
+@snapend
 
 ```yaml
 apiVersion: networking.k8s.io/v1beta1

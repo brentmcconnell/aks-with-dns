@@ -1,4 +1,14 @@
 ### AKS with ExternalDNS and CertManager
+---
+
+### Problem Statement
+
+@ul[list-spaced-bullets text-09]
+- How do we manage DNS entries for Ingress hostnames in Kubernetes
+- For hosts that require an SSL certificate how can we manage certificates
+  automcatically from Kubernetes
+
+@ulend
 
 ---
 
